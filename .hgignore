@@ -3,3 +3,6 @@ ByHostProtectedConfigurationProvider.sln.DotSettings
 ByHostProtectedConfigurationProvider*.suo
 ByHostProtectedConfigurationProvider/bin/*
 ByHostProtectedConfigurationProvider/obj/*
+ByHostProtectedConfigurationProvider.sln.DotSettings.user
+ByHostProtectedConfigurationProvider.Test/bin/*
+ByHostProtectedConfigurationProvider.Test/obj/*
