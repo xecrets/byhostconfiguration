@@ -1,0 +1,5 @@
+syntax: glob
+ByHostProtectedConfigurationProvider.sln.DotSettings
+ByHostProtectedConfigurationProvider*.suo
+ByHostProtectedConfigurationProvider/bin/*
+ByHostProtectedConfigurationProvider/obj/*
