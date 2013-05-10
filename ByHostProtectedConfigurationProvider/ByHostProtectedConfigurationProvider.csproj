@@ -63,6 +63,6 @@
   </Target>
   -->
   <Target Name="AfterBuild" Condition=" '$(AX_PRIVATE)' == 'true' ">
-    <Exec Command="&quot;$(TargetFrameworkSDKToolsDirectory)sn.exe&quot; -Rca &quot;$(OutputPath)$(AssemblyName).dll&quot; Xecrets" />
+    <Exec Command="&quot;$(TargetFrameworkSDKToolsDirectory)sn.exe&quot; -Rca &quot;$(OutputPath)$(AssemblyName).dll&quot; XecretsStrongName" />
   </Target>
 </Project>
