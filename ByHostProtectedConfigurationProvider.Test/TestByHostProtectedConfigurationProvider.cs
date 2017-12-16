@@ -26,14 +26,10 @@
 #endregion Coypright and License
 
 using System;
+using NUnit.Framework;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using System.Text;
 using System.Xml;
-
-using Axantum.Xecrets.Providers;
-
-using NUnit.Framework;
 
 namespace Axantum.Xecrets.Providers.Test
 {
@@ -42,7 +38,7 @@ namespace Axantum.Xecrets.Providers.Test
     {
         private ByHostProtectedConfigurationProvider _provider;
 
-        [NUnit.Framework.TestFixtureSetUp]
+        [SetUp]
         public void InitializeProvider()
         {
             _provider = new ByHostProtectedConfigurationProvider();
@@ -53,7 +49,7 @@ namespace Axantum.Xecrets.Providers.Test
             _provider.Initialize("TestByHostSpecificProvider", config);
         }
 
-        [NUnit.Framework.Test]
+        [Test]
         public void TestProvider()
         {
             string testSection = @"
